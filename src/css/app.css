@@ -1,0 +1,41 @@
+/*Fonts*/
+
+@import "./bootstrap"
+
+.mix-item {
+	/*display: inline-block;*/
+	border: 2px solid #f0f1f2;
+	height: 30px;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+.mix-item > p {
+	vertical-align: middle;
+	/*margin: auto;*/
+}
+
+.disable {
+	background-color: #f0f1f2;
+}
+
+.able{
+	background-color: #3da948;
+}
+
+
+.hilco {
+	display: inline-block;
+	margin-right: 20px;
+}
+.familias {
+	display: inline-block;
+}
+
+.center {
+	text-align: center
+}
+
+body{
+	background-color: #333;
+}

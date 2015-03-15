@@ -1,0 +1,10 @@
+<div class="jumbotron">
+	<div class="container">
+		<h1>Clientes 360</h1>
+	</div>	
+</div>
+<div class="container">
+	<ul class="cliente_list list-group">
+		
+	</ul>
+</div>
