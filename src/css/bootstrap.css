@@ -881,7 +881,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "ProximaNovaSoft-Regular", Calibri, "Gill Sans", "Gill Sans MT", Candara, Segoe, "Segoe UI", Arial, sans-serif;
+ /* font-family: "ProximaNovaSoft-Regular", Calibri, "Gill Sans", "Gill Sans MT", Candara, Segoe, "Segoe UI", Arial, sans-serif; */
   font-size: 14px;
   line-height: 1.42857143;
   color: #3c3d3e;
@@ -6170,6 +6170,7 @@ button.close {
     display: none !important;
   }
 }
+/*
 @font-face {
   font-family: 'ProximaNovaSoft-Regular';
   font-weight: normal;
@@ -6191,6 +6192,7 @@ button.close {
   src: url('../fonts/ProximaNovaSoft-Regular.eot');
   src: url('../fonts/ProximaNovaSoft-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNovaSoft-Regular.woff') format('woff'), url('../fonts/ProximaNovaSoft-Regular.ttf') format('truetype'), url('../fonts/ProximaNovaSoft-Regular.svg#proxima_nova_softmedium') format('svg');
 }
+*/
 .s1icon {
   position: relative;
   display: inline-block;

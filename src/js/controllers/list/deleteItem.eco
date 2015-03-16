@@ -1,0 +1,4 @@
+<li>
+					<label class="card-detail-label"><%= @Name %></label>
+					<a class="card-detail-value btn-delete" data-id="<%= @id %>">delete</a>
+					</li>

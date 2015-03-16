@@ -1,0 +1,11 @@
+
+
+  <div class="card">
+    <div class="card-heading">
+      <%= @Name %>
+    </div>
+    <ul class="card-detail ">
+      <li><%= @AccountSource %></li>
+      <li><%= @Type %></li>
+    </ul>
+  </div>

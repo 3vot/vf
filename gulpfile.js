@@ -12,8 +12,6 @@
 */
 
 
-var config  = require("r2-config").setup("package.json");
-
 var requireDir = require('require-dir');
 
 // Require all tasks in gulp/tasks, including subfolders

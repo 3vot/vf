@@ -18,15 +18,6 @@ gulp.task('browserSync', ['build', 'vfpage'], function() {
     },
     notify: true,
 
-    socket: {
-        namespace: function (namespace) {
-            return "https://localhost:3000" + namespace;
-        }
-    },
-
-    scriptPath: function (path) {
-      return "https://localhost:3000" + path;
-    },
 
     startPath: "/validate?url=" + process.env.INSTANCE_URL + "/apex/" + process.env.NAME + "_dev",
     files: [ "build/**" ]
